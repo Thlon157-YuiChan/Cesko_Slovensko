@@ -81,6 +81,9 @@ footer{
     color: red;
     text-shadow: red;
 }
-.hovera:hover + fukidashia{
+.fukidashia{
+    display: none;
+}
+.hovera:hover + .fukidashia{
     display: block;
 }
