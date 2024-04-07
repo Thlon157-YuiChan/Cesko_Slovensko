@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap');
+.title{
+    margin-top:0px;
+    width: 100%;
+    background-color: rgb(0, 116, 205);
+    text-align: center;
+}
+.titlestring{
+    font-family: 'M PLUS 1p', sans-serif;
+    transform: rotate(0.05deg);
+    margin-left: 1%;
+    color:aliceblue;
+    font-size: 50px;
+    border-left: 0px;
+}
+.page{
+    box-shadow: -2px 2px 4px rgb(63, 63, 63);
+    position: relative;
+}
+@media screen and (min-width: 901px)
+{ 
+    .page{
+        width: 60%;
+        margin: 0 auto;
+        max-width: 4320px;
+        height: 100%;
+        background-color: whitesmoke;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .page{
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        background-color: whitesmoke;
+    }
+ }
+body{
+    background-color: rgb(137, 159, 239);
+    height: 100%;
+}
+.main{
+    margin-top:0px;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin-left: 4px
+}
+h1{
+    margin-top:4px;
+    padding-left:4px;
+    border-left:10px solid #4800c4;
+}
+h2{
+    margin-top:4px;
+    padding-left:4px;
+    border-left:8px solid #0068c4;
+}
+  @media (min-width: 400px) {
+    .left {
+      width:50%
+    }
+    .right {
+      
+    }
+  }
+.thisukiyoe{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.veta{
+    width: 50%;
+}
+.pictures{
+    width: 50%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    color: red;
+    text-shadow: red;
+}
